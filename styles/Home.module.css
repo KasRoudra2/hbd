@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons > * {
+  margin: 10px;
+}
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.socLink {
+  padding: 20px;
+}
+.socIcon {
+  width: 25px;
+  height: 25px;
+  margin: 15px;
+}
+.footerText {
+  font-size: 17px;
+  text-align: center;
+  /* color: #868e96; */
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  margin-bottom: 0px;
+}
